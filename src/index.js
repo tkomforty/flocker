@@ -22,7 +22,7 @@ import {
   Mesh,
   BackSide,
   CanvasTexture,
-} from "three";
+} from "THREE";
 import OrbitControls from "three-orbitcontrols";
 import GLTFLoader from "three-gltf-loader";
 
