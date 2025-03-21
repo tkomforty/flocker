@@ -1,3 +1,7 @@
+
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.module.js';
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.132.2/examples/jsm/controls/OrbitControls.js';
+
 import {
   Scene,
   Color,
@@ -21,6 +25,7 @@ import {
 } from "three";
 import OrbitControls from "three-orbitcontrols";
 import GLTFLoader from "three-gltf-loader";
+
 
 let container;
 let camera;
